@@ -1,3 +1,5 @@
+package br.com.douglasfood.pagamentos.repository;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import br.com.douglasfood.pagamentos.model.Pagamento;

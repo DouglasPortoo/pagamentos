@@ -14,8 +14,6 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Positive;
 import javax.validation.constraints.Size;
 
-import org.hibernate.annotations.GeneratorType;
-
 import br.com.douglasfood.pagamentos.enums.Status;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
@@ -60,7 +58,5 @@ public class Pagamento{
 
   @NotNull
   private Long formaDePagamentoId;
-
-  
 
 }
